@@ -1,1 +1,39 @@
-/* your styles go here */
+.bigtitle{
+    border: 1px solid white;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bigtitle h1{
+    margin: auto;
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 20px
+}
+
+.bigtitle p{
+    margin: auto;
+    text-align: center; 
+    font-family: Calibri;
+    font-size: 40px;  
+}
+
+@media (max-width: 1080px) {
+  .intro p {
+    font-size: 32px;
+  }
+
+  .intro h1 {
+      font-size: 42px;
+  }
+}
+
+@media (max-width: 720px) {
+  .intro p {
+    font-size: 22px;
+  }
+
+  .intro h1 {
+      font-size: 32px;
+  }
+}
