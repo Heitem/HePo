@@ -37,3 +37,16 @@
       font-size: 32px;
   }
 }
+
+.navbar{
+    font-family: "Open Sans";
+    font-style: normal;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.text{
+    background-color: #69C2E4;
+}
