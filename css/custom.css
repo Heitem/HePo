@@ -1,52 +1,75 @@
-.bigtitle{
+.bigtitle {
     border: 1px solid white;
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.bigtitle h1{
+.bigtitle h1 {
     margin: auto;
     text-align: center;
     font-size: 52px;
     margin-bottom: 20px
 }
 
-.bigtitle p{
+.bigtitle p {
     margin: auto;
-    text-align: center; 
+    text-align: center;
     font-family: Calibri;
-    font-size: 40px;  
+    font-size: 40px;
 }
 
 @media (max-width: 1080px) {
-  .intro p {
-    font-size: 32px;
-  }
-
-  .intro h1 {
-      font-size: 42px;
-  }
+    .intro p {
+        font-size: 32px;
+    }
+    .intro h1 {
+        font-size: 42px;
+    }
 }
 
 @media (max-width: 720px) {
-  .intro p {
-    font-size: 22px;
-  }
-
-  .intro h1 {
-      font-size: 32px;
-  }
+    .intro p {
+        font-size: 22px;
+    }
+    .intro h1 {
+        font-size: 32px;
+    }
 }
 
-.navbar{
+.navbar {
     font-family: "Open Sans";
     font-style: normal;
 }
 
-.logo{
-    vertical-align: middle;
+.navbar-header a{
+    padding-top: 9px;
 }
 
-.text{
+.text {
     background-color: #69C2E4;
+}
+
+.lead{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.lead-description{
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.telecharger{
+    padding: 16px 22px;
+    background-color: #474d5d;
+    color: white;
+    font-weight: 600;
+    border: 0;
+}
+
+.telecharger:hover{
+    background-color: #373d4c;
 }

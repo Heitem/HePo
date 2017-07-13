@@ -369,7 +369,6 @@ NAVBAR
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
-    padding-top: 7px;
   }
 }
 .navbar-toggle {
@@ -459,7 +458,6 @@ NAVBAR
 }
 .navbar-default .navbar-brand {
   color: #777777;
-  padding-top: 7px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
