@@ -73,3 +73,8 @@ body {
 .telecharger:hover{
     background-color: #373d4c;
 }
+
+#map{
+    background-color: #69C2E4;
+    height: 450px;
+}
