@@ -119,3 +119,43 @@ $( document ).ready(function() {
             textColor: '#10394B'
            });
    });
+
+   $(document).ready(function(){
+ 
+  // hide our element on page load
+  $('.text .container').css('opacity', 0);
+  $('.competences .container').css('opacity', 0);
+  $('.diplomes .container').css('opacity', 0);
+  $('.gallery .container').css('opacity', 0);
+  $('.contact .container').css('opacity', 0);
+  $('.map').css('opacity', 0);
+ 
+  $('.text .container').waypoint(function() {
+      $('.text .container').addClass('fadeInLeft');
+  }, { offset: '70%' });
+
+  $('.competences .container').waypoint(function() {
+      $('.competences .container').addClass('fadeInRight');
+  }, { offset: '70%' });
+
+  $('.diplomes .container').waypoint(function() {
+      $('.diplomes .container').addClass('fadeInDown');
+  }, { offset: '70%' });
+
+  $('.gallery .container').waypoint(function() {
+      $('.gallery .container').addClass('fadeInRight');
+  }, { offset: '70%' });
+
+  $('.contact .container').waypoint(function() {
+      $('.contact .container').addClass('rollIn');
+  }, { offset: '70%' });
+
+  $('.map').waypoint(function() {
+      $('.map').addClass('fadeIn');
+  }, { offset: '70%' });
+
+  
+//   $('.competences .container').css('opacity', 1);
+//   $('.contact .container').css('opacity', 1);
+ 
+});

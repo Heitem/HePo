@@ -46,6 +46,7 @@
 }
 
 .text {
+    padding: 100px 0;
     background-color: #69C2E4;
 }
 
@@ -75,7 +76,7 @@ body {
 }
 
 .competences{
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 .competences h2{
@@ -91,6 +92,7 @@ body {
 }
 
 .gallery{
+    padding: 80px 0;
     background-color: #10394B;
     color: white;
 }

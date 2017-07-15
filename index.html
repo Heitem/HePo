@@ -21,6 +21,8 @@
     <link href="circliful/css/jquery.circliful.css" rel="stylesheet" type="text/css" />
     <!-- ekko lightbox-->
     <link rel="stylesheet" href="css/ekko-lightbox.css">
+    <!--animate.css  -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
@@ -43,8 +45,8 @@
           <div class="row">
             <div class="col-md-12 bigtitle">
               <!-- <p class="italic">Oh, hello, nice to meet you!</p> -->
-              <h1>Je suis Heitem OULED-LAGHRIYEB</h1>
-              <p>Développeur Mobile</p>
+              <h1 class=" animated fadeInUp">Je suis Heitem OULED-LAGHRIYEB</h1>
+              <p class=" animated fadeInUp">Développeur Mobile</p>
             </div>
           </div>
         </div>
@@ -76,7 +78,7 @@
     <!-- /.navbar-->
     <!-- about-->
     <section id="about" class="text">
-      <div class="container">
+      <div class="container animated">
         <div class="row">
           <div class="col-md-6">
             <h2 class="heading">À propos de moi</h2>
@@ -96,39 +98,39 @@
     <!-- about end-->
     <!-- Compétences-->
     <section id="services" style="background-color: #bbb" class="competences">
-      <div class="container">
+      <div class="container animated">
         <div class="row services">
           <div class="col-md-12">
             <h2 class="heading">Compétences techniques</h2>
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-3 col-sm-offset-2">
                 <div class="box">
                   <div id="android-circle"></div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                 <div class="box">
                   <div id="ionic-circle"></div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                 <div class="box">
                   <div id="ios-circle"></div>
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-3 col-sm-offset-2">
                 <div class="box">
                   <div id="cordova-circle"></div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                 <div class="box">
                   <div id="angular-circle"></div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                 <div class="box">
                   <div id="java-circle"></div>
                 </div>
@@ -140,8 +142,8 @@
     </section>
     <!-- Compétences end-->
     <!-- text page-->
-    <section id="text" style="background-color: #333;" class="text-page section-inverse">
-      <div class="container">
+    <section id="text" style="background-color: #333;" class="text-page diplomes section-inverse">
+      <div class="container animated">
         <div class="row">
           <div class="col-md-12">
             <h2 class="heading">Text page</h2>
@@ -163,7 +165,7 @@
     
     <!-- Portfolio / gallery-->
     <section id="portfolio" class="gallery">
-      <div class="container clearfix">
+      <div class="container clearfix animated">
         <div class="row">
           <div class="col-md-12">
             <div class="row">
@@ -212,7 +214,7 @@
     <!-- Portfolio / gallery end-->
     <!-- contact-->
     <section id="contact" class="text-page contact"> 
-      <div class="container">
+      <div class="container animated">
         <div class="row">
           <div class="col-md-12">
             <h2 class="heading">Contact</h2>
@@ -265,7 +267,7 @@
         </div>
       </div>
     </section>
-    <div id="map"></div>
+    <div id="map" class="map animated"></div>
     <footer style="background-color: #111;" class="section-inverse">
       <div class="container"> 
         <div class="row copyright">
@@ -294,6 +296,8 @@
     <!-- Sticky + Scroll To scripts for navbar-->
     <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
+    <!--Waypoints  -->
+    <script src="js/jquery.waypoints.min.js"></script>
     <!-- google maps-->
     <script src="js/googlemaps.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-elQcuJJDHWkO1VmpprUAn3xnB3BcR7E&callback=initMap"></script>
