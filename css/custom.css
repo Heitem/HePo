@@ -1,7 +1,7 @@
 .bigtitle {
     border: 1px solid white;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .bigtitle h1 {
@@ -15,7 +15,7 @@
     margin: auto;
     text-align: center;
     font-family: Calibri;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 @media (max-width: 1080px) {
@@ -72,6 +72,95 @@ body {
 
 .telecharger:hover{
     background-color: #373d4c;
+}
+
+.competences{
+    padding: 100px 0;
+}
+
+.competences h2{
+    margin-bottom: 0;
+}
+
+.competences .box{
+    margin: 0;
+}
+
+.competences .heading:after {
+  margin: 20px 0 0px;
+}
+
+.gallery{
+    background-color: #10394B;
+    color: white;
+}
+
+.gallery h2{
+    color: white;
+}
+
+.contact{
+    background-color: #111111;
+    color: white;
+    padding: 100px 0;
+}
+
+.contact h2{
+    color: white;
+}
+
+.contact input, .contact textarea{
+    background-color: #0A303D;
+    border: 0;
+    color: white;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.contact input[type=submit]{
+    padding: 10px;
+}
+
+.contact input[type=submit]:hover{
+    background-color: white;
+    color: black;
+}
+
+.details{
+    padding-left: 100px;
+}
+
+.details i{
+    font-size: 20px;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+.contact ul li{
+    margin-bottom: 30px;
+}
+
+.contact ul a{
+    color: white;
+}
+
+.contact ul a:hover{
+    color: #bbb;
+    text-decoration: none;
+}
+
+p.social a.facebook{
+    background-color: #3b5998;
+}
+
+p.social a.twitter{
+    background-color: #1DA1F2;
+}
+
+p.social a.gplus {
+  background-color: #d34836;
 }
 
 #map{
