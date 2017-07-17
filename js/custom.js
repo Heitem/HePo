@@ -59,7 +59,7 @@ t1.innerText += " " + calculateAge("07/30/1993", date) + " ans.";
             animationStep: 6,
             foregroundBorderWidth: 5,
             backgroundBorderWidth: 1,
-            percent: 40,
+            percent: 50,
             iconColor: '#69C2E4',
             foregroundColor: '#69C2E4',
             fontColor: '#69C2E4',
@@ -104,7 +104,7 @@ t1.innerText += " " + calculateAge("07/30/1993", date) + " ans.";
             animationStep: 6,
             foregroundBorderWidth: 5,
             backgroundBorderWidth: 1,
-            percent: 40,
+            percent: 50,
             iconColor: '#69C2E4',
             foregroundColor: '#69C2E4',
             fontColor: '#69C2E4',
@@ -155,5 +155,7 @@ t1.innerText += " " + calculateAge("07/30/1993", date) + " ans.";
   
 //   $('.competences .container').css('opacity', 1);
 //   $('.contact .container').css('opacity', 1);
- 
+    $('.owl-carousel').owlCarousel({
+        nav: true
+    });
 });

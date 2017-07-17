@@ -68,6 +68,10 @@
     background-color: white; 
 }
 
+.header{
+    box-shadow: 0px 1px 20px black;
+}
+
 .navbar {
     font-family: "Open Sans";
     font-style: normal;
@@ -107,10 +111,13 @@ body {
     color: white;
     font-weight: 600;
     border: 0;
+    box-shadow: 1px 1px 5px black;
+    transition: background-color 0.4s;
 }
 
 .telecharger:hover{
-    background-color: #373d4c;
+    background-color: #E040FB;
+    transition: background-color 0.4s;
 }
 
 .competences{
@@ -159,6 +166,11 @@ body {
 
 .gallery h2{
     color: white;
+}
+
+.owl-carousel .box{
+    box-shadow: 1px 1px 20px black;
+    margin-right: 10px;
 }
 
 .contact{
@@ -225,6 +237,14 @@ p.social a.twitter{
 
 p.social a.gplus {
   background-color: #d34836;
+}
+
+p.social a.linkedin {
+  background-color: #007bb6;
+}
+
+p.social a.github i {
+  font-size: 44px;
 }
 
 #map{

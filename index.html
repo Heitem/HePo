@@ -25,6 +25,11 @@
     <link rel="stylesheet" href="css/ekko-lightbox.css">
     <!--animate.css  -->
     <link rel="stylesheet" href="css/animate.css">
+    <!--Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--Image hover  -->
+    <link rel="stylesheet" href="css/imagehover.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
@@ -89,7 +94,7 @@
             <p>Je suis programmeur diplômé d'un DTS en informatique, suivi d'une Licence Professionnelle puis d'un Master Professionnel en Ingénierie des Applications Mobiles.</p>
             <p>Ce portfolio a pour but de présenter les différents projets sur lesquels j'ai travaillé ces dernières années. Vous pouvez également visualiser mon CV et le télécharger.</p>
             <p>Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, vous pouvez me contacter en cliquant <a href="#contact">ici</a> .</p>
-            <button class="telecharger">Télécharger mon CV</button>
+            <a href="files/HEITEM OULED-LAGHRIYEB - CV.pdf" download><button class="telecharger">Télécharger mon CV</button></a>
           </div>
           <div class="col-md-5 col-md-offset-1">
             <p><img src="img/japan-mountains.jpg" alt="" class="img-responsive img-circle"></p>
@@ -102,7 +107,7 @@
     <section id="services" style="background-color: #455A64" class="competences">
       <div class="container animated">
         <div class="row services">
-          <div class="col-md-12">
+          <div class="col-md-11">
             <h2 class="heading">Compétences techniques</h2>
             <div class="row">
               <div class="col-sm-3 col-sm-offset-2">
@@ -196,42 +201,55 @@
             <div class="row">
               <div class="col-md-12 col-lg-8">
                 <h2 class="heading">Portfolio</h2>
-                <p>Put your portfolio or gallery images here for example. Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
+                <p>Voici quelques uns de mes travaux :</p>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-1.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information"><img src="img/portfolio-1.jpg" alt="" class="img-responsive"></a></div>
+              <div class="col-sm-12">
+                <!-- <div class="box"><a href="img/portfolio-1.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 1" data-footer="Some footer information"><img src="img/portfolio-1.jpg" alt="" class="img-responsive"></a></div> -->
+                <div class="owl-carousel owl-theme">
+                  <div class="box">
+                    <a href="img/ensurance_detail.png" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="e-nsurance" data-footer="« e-nsurance » est une application mobile qui permet d'assister et d'offrir toute aide utile lors d’un accident de route. Elle a pour but de mieux assister l’utilisateur de l’application d’une part et d'autre part de lui faciliter la bonne réaction possible face à un accident de route : de la déclaration de l’accident au suivi des dossiers de remboursement d’assurance automobile en passant par l’établissement d’un constat, ainsi les mesures nécessaires pour le secourisme des blessées en cas d’accident grave.">
+                      <figure class="imghvr-blur">
+                        <img src="img/ensurance.png" alt="" class="img-responsive">
+                        <figcaption>
+                          <h5>e-nsurance</h5>
+                          <p>« e-nsurance » est une application mobile qui permet d'assister et d'offrir toute aide utile lors d’un accident de route.</p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="img/augmented_journey_detail.png" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Augmented Journey" data-footer="« Augmented Journey » est une application mobile qui permet d'afficher cinq meilleures destinations dans un périmètre de 5 kms par rapport à la position GPS actuelle, de rechercher des points d’intérêts par mot clé ainsi qu'afficher la direction dans la vue de la réalité augmentée en fonction des capteurs du smartphone.">
+                      <figure class="imghvr-blur">
+                        <img src="img/augmented_journey.png" alt="" class="img-responsive">
+                        <figcaption>
+                          <h5>Augmented Journey</h5>
+                          <p>« Augmented Journey » est une application mobile qui permet d'afficher la direction d'un point GPS dans la vue de la réalité augmentée en fonction des capteurs du smartphone.</p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="img/movie_riddle_detail.png" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Movie Riddle" data-footer="« Movie Riddle » est une application mobile qui permet de rechercher une film en le décrivant en détails, à l'aide d'un service-web d'intelligence artificielle, ou en recherchant par : titre, acteurs, réalisateurs, genres, ...">
+                      <figure class="imghvr-blur">
+                        <img src="img/movie_riddle.png" alt="" class="img-responsive">
+                        <figcaption>
+                          <h5>Movie Riddle</h5>
+                          <p>« Movie Riddle » est une application mobile qui permet de rechercher une film en le décrivant en détails, à l'aide d'un service-web d'intelligence artificielle, ou en recherchant par : titre, acteurs, réalisateurs, genres, ...</p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-4">
+              <!-- <div class="col-sm-4">
                 <div class="box"><a href="img/portfolio-2.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 2" data-footer="Some footer information"><img src="img/portfolio-2.jpg" alt="" class="img-responsive"></a></div>
               </div>
               <div class="col-sm-4">
                 <div class="box"><a href="img/portfolio-3.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 3" data-footer="Some footer information"><img src="img/portfolio-3.jpg" alt="" class="img-responsive"></a></div>
-              </div>
+              </div> -->
             </div>
-            <!-- <div class="row">
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-4.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 4" data-footer="Some footer information"><img src="img/portfolio-4.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-5.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 5" data-footer="Some footer information"><img src="img/portfolio-5.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-6.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 6" data-footer="Some footer information"><img src="img/portfolio-6.jpg" alt="" class="img-responsive"></a></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-7.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 7" data-footer="Some footer information"><img src="img/portfolio-7.jpg" alt="" class="img-responsive"></a></div>
-              </div></a>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-8.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 8" data-footer="Some footer information"><img src="img/portfolio-8.jpg" alt="" class="img-responsive"></a></div>
-              </div></a>
-              <div class="col-sm-4">
-                <div class="box"><a href="img/portfolio-9.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Portfolio image 9" data-footer="Some footer information"><img src="img/portfolio-9.jpg" alt="" class="img-responsive"></a></div>
-              </div></a>
-            </div> -->
           </div>
         </div>
       </div>
@@ -282,10 +300,17 @@
                   <li><i class="fa fa-mobile"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+212) 669891262</li>
                   <li><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:heitemouledlaghriyeb@gmail.com">heitemouledlaghriyeb@gmail.com</a></li>
                   <li><i class="fa fa-link"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://heitemouledlaghriyeb.com" target="_blank">http://heitemouledlaghriyeb.com</a></li>
-                  <li><i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/heitem-ouled-laghriyeb-60157942/" target="_blank">Linkedin de Heitem OULED-LAGHRIYEB</a></li>
+                  <!-- <li><i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/heitem-ouled-laghriyeb-60157942/" target="_blank">Linkedin de Heitem OULED-LAGHRIYEB</a></li> -->
                 </ul>
                 <!-- <p class="social"><a href="https://www.facebook.com/Heitem.OL" target="_blank" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p> -->
-                <!-- <p class="social"><a href="https://www.linkedin.com/in/heitem-ouled-laghriyeb-60157942/" target="_blank" title="" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+                 <p class="social">
+                   <a href="https://www.linkedin.com/in/heitem-ouled-laghriyeb-60157942/" target="_blank" title="" class="linkedin">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/Heitem" target="_blank" title="" class="github">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -323,6 +348,8 @@
     <script src="js/jquery.scrollTo.min.js"></script>
     <!--Waypoints  -->
     <script src="js/jquery.waypoints.min.js"></script>
+    <!--Owl Carousel  -->
+    <script src="js/owl.carousel.min.js"></script>
     <!-- google maps-->
     <script src="js/googlemaps.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-elQcuJJDHWkO1VmpprUAn3xnB3BcR7E&callback=initMap"></script>
