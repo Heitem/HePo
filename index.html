@@ -263,32 +263,53 @@
             <h2 class="heading">Contact</h2>
             <div class="row">
               <div class="col-md-6">
-                <form id="contact-form" method="post" action="#" class="contact-form">
+                <form id="contact-form" method="post" action="contact.php" class="contact-form" role="form">
+                  <div class="messages"></div>
                   <div class="controls">
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="form-group">
                           <!-- <label for="name">Votre Prénom *</label> -->
-                          <input type="text" name="name" placeholder="Entrez votre prénom" required="required" class="form-control">
+                          <input type="text" name="name" placeholder="Entrez votre prénom *" required="required" class="form-control" data-error="Le prénom est obligatoire.">
+                          <div class="help-block with-errors"></div>
                         </div>
                       </div>
                       <div class="col-sm-6">
                         <div class="form-group">
                           <!-- <label for="surname">Votre nom *</label> -->
-                          <input type="text" name="surname" placeholder="Entrez votre nom" required="required" class="form-control">
+                          <input type="text" name="surname" placeholder="Entrez votre nom *" required="required" class="form-control" data-error="Le nom est obligatoire.">
+                          <div class="help-block with-errors"></div>
                         </div>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <!-- <label for="surname">Votre email *</label> -->
-                      <input type="email" name="email" placeholder="Entrez votre email" required="required" class="form-control">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <!-- <label for="name">Votre Prénom *</label> -->
+                          <input type="email" name="email" placeholder="Entrez votre email *" required="required" class="form-control" data-error="L'email est obligatoire.">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <!-- <label for="surname">Votre nom *</label> -->
+                          <input type="tel" name="phone" placeholder="Entrez votre n° de téléphone" class="form-control">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
                     </div>
+                    <!-- <div class="form-group"> -->
+                      <!-- <label for="surname">Votre email *</label> -->
+                      <!-- <input type="email" name="email" placeholder="Entrez votre email" required="required" class="form-control">
+                    </div> -->
                     <div class="form-group">
                       <!-- <label for="surname">Votre message *</label> -->
-                      <textarea rows="4" name="message" placeholder="Entrez votre message" required="required" class="form-control"></textarea>
+                      <textarea rows="4" name="message" placeholder="Entrez votre message *" required="required" class="form-control" rows="4" data-error="Le message est obligatoire."></textarea>
+                          <div class="help-block with-errors"></div>
                     </div>
                     <div class="text-center">
-                      <input type="submit" name="name" value="Envoyer" class="btn btn-primary btn-block">
+                      <input type="submit" name="name" value="Envoyer" class="btn btn-primary btn-block btn-success btn-send">
+                      <p>* Champs obligatoires</p>
                     </div>
                   </div>
                 </form>
@@ -355,6 +376,9 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-elQcuJJDHWkO1VmpprUAn3xnB3BcR7E&callback=initMap"></script>
     <!-- main script-->
     <script src="js/front.js"></script>
+    <!--bootstrap validator  -->
+    <script src="js/validator.js"></script>
+    <script src="js/contact.js"></script>
     <!-- custom script-->
     <script src="js/custom.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
