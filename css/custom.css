@@ -1,10 +1,9 @@
-.intro{
+.intro {
     /* background: linear-gradient(#303F9F, #E040FB); */
 }
 
-.overlay{
+.overlay {
     background: linear-gradient(#303F9F, #E040FB);
-    
 }
 
 .bigtitle {
@@ -30,11 +29,11 @@
     font-size: 80px;
 }
 
-.bigtitle p:first-child{
+.bigtitle p:first-child {
     font-size: 40px;
 }
 
-.bigtitle p:last-child{
+.bigtitle p:last-child {
     text-shadow: 0px 0px 10px black;
 }
 
@@ -45,8 +44,7 @@
     .intro h1 {
         font-size: 52px;
     }
-
-    .intro p:first-child{
+    .intro p:first-child {
         font-size: 30px;
     }
 }
@@ -58,17 +56,16 @@
     .intro h1 {
         font-size: 32px;
     }
-
-    .intro p:first-child{
+    .intro p:first-child {
         font-size: 15px;
     }
 }
 
-.heading:after{
-    background-color: white; 
+.heading:after {
+    background-color: white;
 }
 
-.header{
+.header {
     box-shadow: 0px 1px 20px black;
 }
 
@@ -77,27 +74,31 @@
     font-style: normal;
 }
 
-.navbar-header a{
+.navbar-header a {
     padding-top: 9px;
 }
 
 .text {
     padding: 100px 0;
     background-color: #3F51B5;
-    height: 100%;
+    /* height: 100%;  */
     color: white;
 }
 
-.text h2{
+.text .row div:first-child {
+    margin-bottom: 30px;
+}
+
+.text h2 {
     color: white;
 }
 
-.lead{
+.lead {
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.lead-description{
+.lead-description {
     font-weight: bold;
 }
 
@@ -105,7 +106,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.telecharger{
+.telecharger {
     padding: 16px 22px;
     background-color: #474d5d;
     color: white;
@@ -115,47 +116,54 @@ body {
     transition: background-color 0.4s;
 }
 
-.telecharger:hover{
+.telecharger:hover {
     background-color: #E040FB;
     transition: background-color 0.4s;
 }
 
-.competences{
+.competences {
     padding: 75px 0;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     align-items: center;
 }
 
-.competences h2{
+.competences h2 {
     margin-bottom: 0;
     color: white;
 }
 
-.competences .box{
+.competences .box {
     margin: 0;
 }
 
 .competences .heading:after {
-  margin: 20px 0 0px;
+    margin: 20px 0 0px;
 }
 
-.diplomes{
+.diplomes {
     padding: 70px 0;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     align-items: center;
 }
 
-.diplomes li{
-    list-style: none;
+@media (min-width: 789px) {
+    .intro,
+    .competences,
+    .diplomes {
+        height: 100%;
+    }
+}
+
+.diplomes .col-sm-12 {
     padding: 10px 40px;
-    margin-bottom: 20px;
+    margin: 0 10px 20px 10px;
     background-color: #474d5d;
     box-shadow: 2px 2px 20px black;
 }
 
-.gallery{
+.gallery {
     padding: 80px 0;
     background-color: #10394B;
     color: white;
@@ -164,16 +172,16 @@ body {
     align-items: center;
 }
 
-.gallery h2{
+.gallery h2 {
     color: white;
 }
 
-.owl-carousel .box{
+.owl-carousel .box {
     box-shadow: 1px 1px 20px black;
     margin-right: 10px;
 }
 
-.contact{
+.contact {
     background-color: #111111;
     color: white;
     padding: 90px 0;
@@ -181,11 +189,12 @@ body {
     align-items: center;
 }
 
-.contact h2{
+.contact h2 {
     color: white;
 }
 
-.contact input, .contact textarea{
+.contact input,
+.contact textarea {
     background-color: #0A303D;
     border: 0;
     color: white;
@@ -193,61 +202,57 @@ body {
     padding: 20px;
 }
 
-.contact input[type=submit]{
+.contact input[type=submit] {
     padding: 10px;
 }
 
-.contact input[type=submit]:hover{
+.contact input[type=submit]:hover {
     background-color: white;
     color: black;
 }
 
-.details{
-    padding-left: 100px;
-}
-
-.details i{
+.details i {
     font-size: 20px;
 }
 
-.contact ul{
+.contact ul {
     list-style: none;
 }
 
-.contact ul li{
+.contact ul li {
     margin-bottom: 30px;
 }
 
-.contact ul a{
+.contact ul a {
     color: white;
 }
 
-.contact ul a:hover{
+.contact ul a:hover {
     color: #bbb;
     text-decoration: none;
 }
 
-p.social a.facebook{
+p.social a.facebook {
     background-color: #3b5998;
 }
 
-p.social a.twitter{
+p.social a.twitter {
     background-color: #1DA1F2;
 }
 
 p.social a.gplus {
-  background-color: #d34836;
+    background-color: #d34836;
 }
 
 p.social a.linkedin {
-  background-color: #007bb6;
+    background-color: #007bb6;
 }
 
 p.social a.github i {
-  font-size: 44px;
+    font-size: 44px;
 }
 
-#map{
+#map {
     background-color: #69C2E4;
     height: 450px;
 }
